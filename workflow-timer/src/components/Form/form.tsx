@@ -6,7 +6,7 @@ class Form extends React.Component {
   render() {
     return (
       <form className={form.newTask}>
-        <div className="inputContainer">
+        <div className={form.inputContainer}>
           <label htmlFor="task">Add new task</label>
           <input
             type="text"

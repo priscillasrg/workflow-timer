@@ -6,7 +6,7 @@ import workflow from './workflow.module.scss'
 
 function Workflow() {
   return (
-    <div className={workflow.WorkflowStyle}>
+    <div className={workflow.workflow}>
       <Form/>
       <List/>
     </div>
